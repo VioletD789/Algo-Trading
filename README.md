@@ -1,5 +1,5 @@
 # Algo-Trading
-Played around with time-series forecasting for stock prices and built Long-Short Term Recurrent Neural Net Model to predict stock opening, closing, high, low, and trading volumes using historic data!
+Played around with time-series forecasting for stock prices and built Long-Short Term Recurrent Neural Net Model using Tensorflow to predict stock opening, closing, high, low, and trading volumes using historic data!
 
 *Note: the model is obviously not extremely accurate, given the difficulty of stock performance prediction, but does a pretty good job of predicting several of the aforementioned features using only historic data
 
