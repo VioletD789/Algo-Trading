@@ -5,9 +5,9 @@ Played around with time-series forecasting for stock prices and built Long-Short
 
 ## file decsriptions:
 Data_Pull.ipynb = 8 year pull of daily stock data from quandl for Adobe, Nvidia, and Microsoft + some cool time series graphs  
-Model_test.ipynb = LSTM model training -- 2 models; one built on selected features available from pulled quandl dataframe and another based on features suggested by this paper *  
+ModelBuilding.ipynb = LSTM model training -- 2 models; one built on selected features available from pulled quandl dataframe and another based on features suggested by this paper *  
 save_model_x directories = models saved from Model_test.ipynb to be tested on data in AlpacaTesting.ipynb  
-AlpacaTesting.ipynb = data pull of live, current data from alpaca stock trading api and testing of saved models (trained on historic data) on this current data  
+ModelPrediction.ipynb = data pull of live, current data from alpaca stock trading api and testing of saved models (trained on historic data) on this current data  
 
 *referenced paper: https://www.researchgate.net/publication/319343084_Algorithmic_Trading_Using_Deep_Neural_Networks_on_High_Frequency_Data
 
